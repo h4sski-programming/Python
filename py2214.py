@@ -13,8 +13,6 @@ max = list[0]
 temp_list = list.copy()
 max = 100
 
-n = 0
-
 def finder_max(upper_limit, temp_l):
     m = 0
     m_position = 0
@@ -22,7 +20,6 @@ def finder_max(upper_limit, temp_l):
         if temp_l[k] >= m and temp_l[k] <= upper_limit:
             m = temp_l[k]
             m_position = k
-            n += 1
     return [m, m_position]
 
 for i in range(len(list)):
@@ -33,4 +30,3 @@ for i in range(len(list)):
 
 print(list)
 print(result)
-print(n)
