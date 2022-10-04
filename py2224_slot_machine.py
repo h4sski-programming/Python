@@ -53,7 +53,7 @@ def get_bet():
 
 def get_lines():
     while True:
-        lines = input('How many lines you want to bid? ')
+        lines = input(f'How many lines you want to bid (1-{MAX_BET_ROWS})? ')
         if lines.isdigit():
             lines = int(lines)
             if 1 <= lines <= MAX_BET_ROWS:

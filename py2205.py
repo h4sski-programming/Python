@@ -3,7 +3,7 @@
 '''
 https://www.w3resource.com/python-exercises/basic/
 1. Write a Python function that takes a sequence of numbers
-and determines whether all the numbers are different 
+and determines whether all the numbers are different
 from each other.
 '''
 
@@ -16,7 +16,7 @@ while n < len(input):
     while m < len(input):
         if input[n] == input[m]:
             print(input[n], 'same as', input[m])
-        m +=1
+        m += 1
     n += 1
 
 print('end of program')

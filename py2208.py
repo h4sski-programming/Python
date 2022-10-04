@@ -2,10 +2,10 @@
 
 '''
 https://www.w3resource.com/python-exercises/basic/
-1. Write a Python program to check the sum of three 
-elements (each from an array) from three arrays is 
-equal to a target value. Print all those three-element 
-combinations. 
+1. Write a Python program to check the sum of three
+elements (each from an array) from three arrays is
+equal to a target value. Print all those three-element
+combinations.
 '''
 
 x = [10, 20, 20, 20]
