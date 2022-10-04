@@ -40,7 +40,7 @@ def dzielenie(mistakes):
 
 def main():
     mistakes = 0
-    for _ in range(10):
+    for _ in range(20):
         r = random.choice(['m', 'd'])
         if r == 'm':
             mistakes = mnozenie(mistakes)

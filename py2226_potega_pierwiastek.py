@@ -21,7 +21,7 @@ def potega(w):
             break
         else:
             mistake += 1
-            print('Zle, jeszcze raz:')
+            print('  Zle, jeszcze raz:')
     return mistake
 
 
@@ -47,11 +47,12 @@ def main():
     mistakes = 0
     wykladnik = random.choice([2, 3])
     for _ in range(10):
-        r = random.choice(['p', 'q'])
+        r = random.choice(['p', 'p'])       # q for sqrt()
         if r == 'p':
             mistakes += potega(wykladnik)
         else:
             mistakes += pierwiastek(wykladnik)
+    print()
     print(f'Popoelniles {mistakes} bledow.')
 
 
